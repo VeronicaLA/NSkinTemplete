@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script src="js/index.js"></script>
+        <title>Templete Nuskin</title>
+    </head>
+    <body>
+       <section class="titulo">
+	   <img id="logo" src="img/logoempowerlab.jpg" ALIGN="right">
+      <h2 ALIGN="Center">NuSkin Templete</h2>
+   </section>
+   <section class="menu">
+	   <label for="show-menu" class="show-menu">Ver Menu</label>
+		<input type="checkbox" id="show-menu" role="button">
+		<ul id="menu">
+		<li><form name="quickSearchForm" ALIGN="left" action="http://www.intellibanks.net/alkimia/bin/view/NuSkinTemplete/WebSearch">
+		<img id="buscar" src="img/system-search.png"><input type="text" class="twikiInputField twikiInputFieldBeforeFocus" id="quickSearchBox" name="search" placeholder="Search"  size="16" onfocus="this.value='';" onblur="this.value='Search';"/>
+		</form>
+		</li>
+		<li><a href="#">Forums</a></li>
+		<li>
+		<a href="#">Blogs</a>
+		</li>
+		<li>
+		<a href="#">Groups</a>
+		</li>
+		<li><a href="#">EMOFS</a></li>
+		<li><a href="#">KM</a></li>
+		</ul>
+		 <p></p>
+    </section>
+	<section>
+	<hr></hr>
+	</section>
+	<section class="submenu">
+	<input id="iconos" type="image" src="img/page_edit.png" onclick="edit()">
+	<input id="iconos" type="image" src="img/page_attach.png" onclick="attach()">
+	<input id="iconos" type="image" src="img/page_code.png" onclick="view()">
+	<div id="separador"></div>
+	<input id="iconos" type="image" src="img/page_go.png" onclick="rename()">
+	<input id="iconos" type="image" src="img/cross.png" onclick="eliminar()">
+	<input id="iconos" type="image" src="img/page_add.png" onclick="create()">
+	</section>
+   <section>
+   <center> <img src="img/atardecer.jpg"><center> 
+   <iframe src="contenidoinicial.html" id="frame1" >
+   </iframe>
+	 </section>
+   <section class="flooter">
+   <div class="textP">
+   Intellibanks<p style="line-height: 2em; font-size: 8pt"><img id="imgpie" src="img/intellibanks.png" ALIGN="right"></p><img id="imgpie" src="img/perlpowered.png" ALIGN="right">
+   </div>
+   </section>
+		
+		
+    </body>
+</html>
